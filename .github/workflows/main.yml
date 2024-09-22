@@ -28,4 +28,5 @@ jobs:
 
       - name: Sync files to S3
         run: |
-          aws s3 sync ./dist s3://deependra-portfolio --delete
+         aws s3 sync ./build s3://deependra-portfolio --delete
+
