@@ -35,4 +35,4 @@ jobs:
 
       - name: Sync files to S3
         run: |
-          aws s3 sync ./build s3://deependra-portfolio --delete  # Change this path as needed
+          aws s3 sync ./build s3://deependra-portfolio --delete  # Ensure this path is correct
